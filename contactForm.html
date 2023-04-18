@@ -16,16 +16,34 @@
   action="https://formspree.io/f/xayzayeb"
   method="POST"
     >
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+    <div>
+    <label for="firstName">
+        First Name:
+        <input type="text" name="firstName" id="firstName" placeholder="What's your name?">
+    </label>    
+    </div>
+    <div>
+      <label for="lastName">
+        Last Name:
+        <input type="text" name="lastName" id="lastName" placeholder="Okay, now surname pls?">
+    </label>  
+    </div>    
+    <div>
+      <label>
+    Your Email:
+    <input type="email" name="email" placeholder="Insert Email (pls)">
+  </label>  
+    </div>
+    <div>
+      <label>
+    Your Message:
+    <textarea name="message" placeholder="omg girl, what's up with you?"></textarea>
+  </label>  
+    </div>
+  
   <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+  <button type="submit">Submit</button>
+  <button onclick="document.location='index.html'">Cancel</button>
 </form>
 </body>
 </html>
