@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>omg you wanna contact me?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- input - place for user to put in their data or give an answer or something. element is an opening and closing tag on it's own. -->
+<!-- add submit button in even though pressing enter works. something about call to action - submitting form and sending data somewhere. -->
+<!-- action thingy tells us where to send the data; method - what are we doing with this data? sending, posting, storing, etc -->
+<!-- attributes are like settings we are giving to the thing - classes, IDs, stuff like that - in this case, action or method -->
+       <form
+  action="https://formspree.io/f/xayzayeb"
+  method="POST"
+    >
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+</body>
+</html>
