@@ -6,6 +6,8 @@
 body {
     background-color: rgb(249, 214, 173);
     font-size: 17px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 h4 {
@@ -40,4 +42,15 @@ input {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+ul {
+    background-color: rgb(240, 234, 222);
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0px 100px;
+    width: 6em;
 }
